@@ -1,0 +1,315 @@
+.maindiv {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    border: 1px solid gainsboro;
+}
+
+.menu {
+    height: 100%;
+    width: 60%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.h2 {
+    font-size: larger;
+    font-weight: 500;
+}
+.thread1{
+    height: 100%;
+    width:40%;
+    border: 0px solid red;
+    flex-direction: row;
+    
+}
+.form1{
+    height: 100%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.form2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.form3{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+
+.t1{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.h3 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.h4 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.l1 {
+    height: 50%;
+    width: 70%;
+    border: 0px solid red;
+}
+
+.l2 {
+    height: 50%;
+    width: 70%;
+    border: 0px solid red;
+}
+.middlecontainer{
+    height: 110vh;
+    width: 100vw;
+    border:0px solid black ;
+}
+.innerdiv{
+    height: 100%;
+    width: 70%;
+    border: 1px solid gainsboro;
+}
+.line1{
+    height: 10%;
+    width: 85%;
+    border: 0px solid red;
+}
+.mid1{
+    height: 90%;
+    width: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    border: 0px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.left1{
+    height:10%;
+    width:60%;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.left2{
+    height:15%;
+    width:60%;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.right{
+    height: 100%;
+    width:100%;
+    display: flex;
+    border: 0px solid yellow;
+    flex-direction: column;
+}
+.right1{
+    height:10%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.right3{
+    height:10%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.field6{
+    height: 100px;
+    width: 700px;
+    font-size: 11px;
+}
+.g1{
+    width:90%;
+    height:100%;
+    border: 0px solid gainsboro;
+    position: relative;
+    top: 10px;
+}
+
+.field2 {
+    height: 20px;
+    width: 300px;
+    border: 0px solid gainsboro;
+    border-radius: 5px;
+
+}
+.feild4 {
+    height: 30px;
+    width: 30px;
+    border: 0px solid red;
+}
+.radio{
+    height: 100%;
+    width: 80px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.profile{
+    height:80%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+justify-content: flex-start;
+}
+.gender{
+    height: 100%;
+    width: 80px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept{
+    height: 100%;
+    width: 75px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept1{
+    height: 100%;
+    width: 90px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept2{
+    height: 100%;
+    width: 100px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept3{
+    height: 100%;
+    width: 115px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept4{
+    height: 100%;
+    width: 75px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fill1{
+    height: 55px;
+    width: 200px;
+    border-radius: 2px;
+}
+.fill2{
+    height: 45px;
+    width: 50px;
+    border-radius: 2px;
+}
+.fill3{
+    height: 45px;
+    width: 150px;
+    border-radius: 2px;
+}
+.fill4{
+    height: 45px;
+    width: 80px;
+    border-radius: 2px;
+}
+.start{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.right2{
+    height:20%;
+    width:100%;
+    border: 0px solid green;
+}
+.g2{
+    width:90%;
+    height:100%;
+    border: 0px solid red;
+    position: relative;
+    top: 10px;
+}
+.field1 {
+    height: 100%;
+    width: 100%;
+    border: 0px solid gainsboro;
+}
+.field3{
+    height: 60px;
+    width: 700px;
+}
+.notes1{
+    height:20%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+    align-items: flex-end;
+justify-content: flex-start;
+}
+.button1 {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right:70px;
+}
+.button2 {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 55px;
+    top: 20px;
+}
+.button3 {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}

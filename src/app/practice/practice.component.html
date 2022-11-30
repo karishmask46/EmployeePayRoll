@@ -1,0 +1,124 @@
+
+
+        <!-- <div class="line2" fxLayout="row" fxLayoutAlign="space-around center">
+            <span>name</span>
+            <mat-form-field class="field1" fxLayout="row" fxLayoutAlign="start center">
+                <mat-label>Type your name here</mat-label>
+                <input class="field2" matInput placeholder="type your name here">
+            </mat-form-field>
+        </div>
+        <div class="line3" fxLayout="row" fxLayoutAlign="space-evenly center">
+            <div class="gen1" fxLayout="row" fxLayoutAlign="space-between center">
+                <div class="profile1" fxLayoutAlign="center center">
+                    <span>Profile image</span>
+                </div>
+                <div class="gender2" fxLayout="row" fxLayoutAlign="start center">
+                    <mat-radio-group aria-label="Select an option" class="k1" fxLayout="row"
+                        fxLayoutAlign="space-evenly center">
+                        <mat-radio-button value="1"><img class="feild4" src="../../../assets/Ellipse -1.png" alt="">
+                        </mat-radio-button>
+                        <mat-radio-button value="2"><img class="feild4" src="../../../assets/Ellipse -2.png" alt="">
+                        </mat-radio-button>
+                        <mat-radio-button value="2"><img class="feild4" src="../../../assets/Ellipse -3.png" alt="">
+                        </mat-radio-button>
+                        <mat-radio-button value="2"><img class="feild4" src="../../../assets/Ellipse -4.png" alt="">
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+            </div>
+        </div>
+        <div class="line4" fxLayout="row" fxLayoutAlign="space-evenly center">
+            <div class="gen1" fxLayout="row" fxLayoutAlign="space-between center">
+                <div class="gender1" fxLayoutAlign="center center">
+                    <span>Gender</span>
+                </div>
+                <div class="gender2" fxLayout="row" fxLayoutAlign="start center">
+                    <mat-radio-group aria-label="Select an option" fxLayout="row" fxLayoutAlign="space-between center">
+                        <div class="gender3" fxLayoutAlign="space-between center">
+                            <mat-radio-button value="1">Male</mat-radio-button>
+                            <mat-radio-button value="2">Female</mat-radio-button>
+                        </div>
+                    </mat-radio-group>
+                </div>
+            </div>
+        </div>
+        <div class="line5" fxLayout="row" fxLayoutAlign="space-evenly center">
+            <div class="gen1" fxLayout="row" fxLayoutAlign="space-between center">
+                <div class="profile2" fxLayoutAlign="center center">
+                    <span>Department</span>
+                </div>
+                <div class="depart1" fxLayout="row" fxLayoutAlign="space-between center">
+                    <mat-checkbox class="example-margin">HR</mat-checkbox>
+                    <mat-checkbox class="example-margin">Sales</mat-checkbox>
+                    <mat-checkbox class="example-margin">Finance</mat-checkbox>
+                    <mat-checkbox class="example-margin">Engineer</mat-checkbox>
+                    <mat-checkbox class="example-margin">Others</mat-checkbox>
+                </div>
+            </div>
+        </div>
+        <div class="line6" fxLayout="row" fxLayoutAlign="space-evenly center">
+            <div class="gen1" fxLayout="row" fxLayoutAlign="space-between center">
+                <div class="profile2" fxLayoutAlign="center center">
+                    <span>Salary</span>
+                </div>
+                <div class="depart1" fxLayout="row" fxLayoutAlign="space-between center">
+                    <mat-form-field appearance="fill" class="fill1" style="border:1px solid gray ;">
+                        <mat-label> select Salary</mat-label>
+                        <mat-select>
+                          <mat-option >
+                          </mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <div class="line7" fxLayout="row" fxLayoutAlign="space-evenly center">
+            <div class="gen1" fxLayout="row" fxLayoutAlign="space-between center">
+                <div class="profile2" fxLayoutAlign="center center">
+                    <span>Start Date</span>
+                </div>
+                <div class="depart1" fxLayout="row" fxLayoutAlign="space-between center">
+                    <mat-form-field appearance="fill" class="fill2" style="border:1px solid gray ;">
+                        <mat-label>Day</mat-label>
+                        <mat-select>
+                            <mat-option>
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill" class="fill2" style="border:1px solid gray ;">
+                        <mat-label>Month</mat-label>
+                        <mat-select>
+                            <mat-option>
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill" class="fill2" style="border:1px solid gray ;">
+                        <mat-label>Year</mat-label>
+                        <mat-select>
+                            <mat-option>
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <div class="notes" fxLayout="row" fxLayoutAlign="space-evenly center">
+            <span>Notes</span>
+            <mat-form-field class="field1" fxLayout="row" fxLayoutAlign="start center">
+                <input class="field3" matInput>
+            </mat-form-field>
+        </div>
+        <div class="notes1" fxLayout="row" fxLayoutAlign="space-evenly center">
+            <button mat-button class="button1">Cancel</button>
+            <button mat-button class="button1">Submit</button>
+            <button mat-button class="button1">Reset</button>
+        </div> -->
+        <h4>Basic mat-select</h4>
+        <mat-form-field appearance="fill">
+          <mat-label>Favorite food</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let food of foods" [value]="food.value">
+              {{food.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>

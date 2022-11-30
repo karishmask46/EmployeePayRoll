@@ -1,0 +1,171 @@
+<div class="maindiv" fxLayout="column" fxLayoutAlign="center center">
+    <mat-toolbar>
+        <div class="menu" fxLayout="column" fxLayoutAlign="center center">
+            <div class="l1">
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">E</span>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">m</span>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">p</span>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">l</span>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">o</span>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">y</span>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">e</span>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">e</span>
+            </div>
+            <div class="l2">
+                <span style="color:rgb(4, 4, 40) ;" class="h1">P</span>
+                <span style="color:rgb(4, 4, 40) ;" class="h1">a</span>
+                <span style="color:rgb(4, 4, 40) ;" class="h1">y</span>
+                <span style="color:rgb(4, 4, 40) ;" class="h1">r</span>
+                <span style="color:rgb(4, 4, 40) ;" class="h1">o</span>
+                <span style="color:rgb(4, 4, 40) ;" class="h1">l</span>
+                <span style="color:rgb(4, 4, 40) ;" class="h1">l</span>
+            </div>
+        </div>
+    </mat-toolbar>
+</div>
+<div class="middlecontainer" fxLayout="row" fxLayoutAlign="center center">
+    <div class="innerdiv" fxLayout="column" fxLayoutAlign="start center">
+        <div class="line1" fxLayout="row" fxLayoutAlign="start center">
+            <div class="thread1" fxLayout="row" fxLayoutAlign="start center">
+            <div class="form1">
+                <span style="color:rgb(4, 4, 40) ;" class="t1">E</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">m</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">p</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">l</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">o</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">y</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">e</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">e</span>
+            </div>
+            <div class="form2">
+                <span style="color:rgb(4, 4, 40) ;" class="t1">P</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">a</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">y</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">r</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">o</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">l</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">l</span>
+            </div>
+            <div class="form3">
+                <span style="color:rgb(4, 4, 40) ;"class="t1">F</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">o</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">r</span>
+                <span style="color:rgb(4, 4, 40) ;" class="t1">m</span>
+            </div>
+        </div>
+        </div>
+          <div class="mid1">
+            <div class="left">
+                <span class="left1">Name</span>
+                <span class="left1">Profile Image</span>
+                <span class="left1">Gender</span>
+                <span class="left1">Department</span>
+                <span class="left1">Salary</span>
+                <span class="left1">Start Date</span>
+                <span class="left2">Notes</span>
+            </div>
+            <form >
+            <div class="right">
+                <div class="right1">
+                   <div class="g1"  fxLayout="row" fxLayoutAlign="center stretch" > 
+                <mat-form-field appearance="outline" class="field6" [(ngModel)]="Name"  [ngModelOptions]="{standalone: true}" ngDefaultControl>
+                    <mat-label>Type your name here</mat-label>
+                    <input class="field2" matInput placeholder="type your name here"  >
+                </mat-form-field></div>
+            </div>
+            <div class="right1">
+                <div class="profile"  [(ngModel)]="Profile"  [ngModelOptions]="{standalone: true}" ngDefaultControl>
+                        <div class="radio">
+                        <mat-radio-button  value="../../../assets/Ellipse -1.png" name="radio" ><img class="feild4" src="../../../assets/Ellipse -1.png" alt="">
+                        </mat-radio-button></div>
+                        <div class="radio">
+                        <mat-radio-button value="../../../assets/Ellipse -2.png" name="radio" ><img class="feild4" src="../../../assets/Ellipse -2.png" alt="">
+                        </mat-radio-button></div>
+                        <div class="radio">
+                        <mat-radio-button value="../../../assets/Ellipse -3.png"name="radio"  ><img class="feild4" src="../../../assets/Ellipse -3.png" alt="">
+                        </mat-radio-button></div>
+                        <div class="radio">
+                        <mat-radio-button value="../../../assets/Ellipse -4.png" name="radio"><img class="feild4" src="../../../assets/Ellipse -4.png" alt="">
+                        </mat-radio-button></div>
+                </div>
+            </div>
+                <div class="right3" [(ngModel)]="Gender"  [ngModelOptions]="{standalone: true}" ngDefaultControl>
+                    <div class="gender">
+                    <mat-radio-button value="Male" name="gender">Male</mat-radio-button>
+                    </div>
+                    <div class="gender">
+                            <mat-radio-button value="Female" name="gender" >Female</mat-radio-button></div>
+                </div>
+                
+                <div class="right1" [(ngModel)]="Dept"  [ngModelOptions]="{standalone: true}" ngDefaultControl >
+                    <div class="dept">
+                    <mat-checkbox class="example-margin" value="HR">HR</mat-checkbox></div>
+                    <div class="dept1">
+                    <mat-checkbox class="example-margin" value="Sales" >SALES</mat-checkbox></div>
+                    <div class="dept2">
+                    <mat-checkbox class="example-margin" value="finance" >FINANCE</mat-checkbox></div>
+                    <div class="dept3">
+                    <mat-checkbox class="example-margin" value="engineer">ENGINEER</mat-checkbox></div>
+                    <div class="dept4">
+                    <mat-checkbox class="example-margin" value="others" >OTHERS</mat-checkbox></div>
+                </div>
+                <div class="right1">
+                     <mat-form-field appearance="outline" class="fill1">
+                        <mat-label> select Salary</mat-label>
+                        <mat-select  [(ngModel)]="salary"  [ngModelOptions]="{standalone: true}" ngDefaultControl >
+                          <mat-option *ngFor="let salary of Salaries" [value]="salary.value" >
+                            {{salary.viewValue}}
+                          </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="Date">
+                    <div class="start"  [(ngModel)]="date"  [ngModelOptions]="{standalone: true}" ngDefaultControl>
+                    <mat-form-field appearance="outline" class="fill2">
+                        <mat-label>Day</mat-label>
+                        <mat-select [(ngModel)]="day"  [ngModelOptions]="{standalone: true}" ngDefaultControl>
+                            <mat-option *ngFor="let day of Day" [value]="day.viewValue" >
+                                {{day.viewValue}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="fill3">
+                        <mat-label>Month</mat-label>
+                        <mat-select  [(ngModel)]="Month"  [ngModelOptions]="{standalone: true}" ngDefaultControl>
+                            <mat-option *ngFor="let month of month" [value]="month.viewValue" >
+                                {{month.viewValue}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="fill4">
+                        <mat-label>Year</mat-label>
+                        <mat-select  [(ngModel)]="Year"  [ngModelOptions]="{standalone: true}" ngDefaultControl  >
+                            <mat-option *ngFor="let year of year" [value]="year.viewValue">{{year.viewValue}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <!-- <mat-form-field appearance="outline" class="fill3"  >
+                        <mat-label>Choose a date</mat-label>
+                        <input matInput [matDatepicker]="picker">
+                        <mat-hint>MM/DD/YYYY</mat-hint>
+                        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                      </mat-form-field> -->
+                </div>
+                </div>
+                <div class="right2"  >
+                    <div class="g2" fxLayout="column" fxLayoutAlign="center center"> 
+                    <mat-form-field class="field1" appearance="outline" [(ngModel)]="number" [ngModelOptions]="{standalone: true}" ngDefaultControl  >
+                        <input class="field3" matInput >
+                    </mat-form-field>
+                    </div>
+            </div> 
+            <div class="notes1" fxLayout="row" fxLayoutAlign="space-evenly center">
+                <button mat-button class="button1" >Cancel</button>
+                <button mat-button class="button2" routerLink="/secondpage" (click)="setValue()">Submit</button>
+                <button mat-button class="button3">Reset</button>
+            </div>
+          </div>
+        </form>
+    </div>
+    </div>
