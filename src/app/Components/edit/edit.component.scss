@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.namefield{
+    height: 30px;
+    width: 100px;
+    border: 1px solid red;
+}
+.button{
+    height: 30px;
+    width: 60px;
+    background: green;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}

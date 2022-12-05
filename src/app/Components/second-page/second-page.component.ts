@@ -7,18 +7,22 @@ import { UserService } from 'src/app/Service/user.service';
   styleUrls: ['./second-page.component.scss']
 })
 export class SecondPageComponent implements OnInit {
-  constructor(private getdata:UserService) { }
-  array:any;
+  constructor(private getdata: UserService) { }
+  array: any;
+  deletedetails: any;
   ngOnInit(): void {
     this.getdetails();
   }
-  getdetails(){
-    this.getdata.employeeget().subscribe((result:any)=>{
+  getdetails() {
+    this.getdata.employeeget().subscribe((result: any) => {
       console.log(result);
-       this.array=result
+      this.array = result
     })
     console.log(this.array);
- 
+
   }
- 
+  receivemessage(event: any) {
+    this.getdetails()
+  }
+
 }

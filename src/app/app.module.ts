@@ -21,6 +21,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { IconComponent } from './Components/icon/icon.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
+import { EditComponent } from './Components/edit/edit.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { DemoComponent } from './Components/demo/demo.component';
+import { Demo2Component } from './Components/demo2/demo2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +32,9 @@ import {MatNativeDateModule} from '@angular/material/core';
     PracticeComponent,
     SecondPageComponent,
     IconComponent,
+    EditComponent,
+    DemoComponent,
+    Demo2Component,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +52,7 @@ import {MatNativeDateModule} from '@angular/material/core';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatDatepickerModule,MatNativeDateModule
+    MatDatepickerModule,MatNativeDateModule,MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

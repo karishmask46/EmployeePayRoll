@@ -1,0 +1,30 @@
+{
+  "employees": [
+    {
+      "Name": "lakshmi",
+      "number": "kjxsnjcbnsiubcx",
+      "Profile": "../../../assets/Ellipse -4.png",
+      "Gender": "Female",
+      "Dept": "Sales",
+      "salary": "30000",
+      "Dayname": "5",
+      "Monthname": "March",
+      "Yearname": "2011",
+      "Datename": "5/March/2011",
+      "id": 6
+    },
+    {
+      "Name": "karishma",
+      "number": "njbjkhikj",
+      "Profile": "../../../assets/Ellipse -1.png",
+      "Gender": "Female",
+      "Dept": "Sales",
+      "salary": "40000",
+      "Dayname": "5",
+      "Monthname": "April",
+      "Yearname": "2012",
+      "Datename": "5/April/2012",
+      "id": 7
+    }
+  ]
+}

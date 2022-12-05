@@ -1,6 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ChildActivationEnd } from '@angular/router';
 import { UserService } from 'src/app/Service/user.service';
 interface salary {
   value: string;
@@ -123,8 +121,7 @@ export class FirstPAgeComponent implements OnInit {
 date(){
   return (this.day+'/'+this.Month+'/'+this.Year)
 }
-  // "profilePic": "../Assets/Ellipse -1.png"
-
+ 
   setValue() {
     let data = {
       Name: this.Name,
@@ -140,7 +137,6 @@ date(){
     }
     this.user.employee(data).subscribe((result: any) => {
     console.log(result);
-
     })
   }
 
