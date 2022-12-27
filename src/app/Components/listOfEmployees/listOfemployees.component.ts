@@ -3,8 +3,8 @@ import { UserService } from 'src/app/Service/user.service';
 
 @Component({
   selector: 'app-second-page',
-  templateUrl: './second-page.component.html',
-  styleUrls: ['./second-page.component.scss']
+  templateUrl: './listOfemployees.component.html',
+  styleUrls: ['./listOfemployees.component.scss']
 })
 export class SecondPageComponent implements OnInit {
   constructor(private getdata: UserService) { }
@@ -18,11 +18,12 @@ export class SecondPageComponent implements OnInit {
       console.log(result);
       this.array = result
     })
-    console.log(this.array);
-
   }
   receivemessage(event: any) {
     this.getdetails()
+  }
+  reciveupdate(event:any){
+    this.getdetails();
   }
 
 }

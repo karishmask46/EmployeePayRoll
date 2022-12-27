@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { UserService } from 'src/app/Service/user.service';
+import {MatSnackBar} from '@angular/material/snack-bar';
 interface salary {
   value: string;
   viewValue: string;
@@ -16,19 +17,15 @@ interface Year {
   value: string;
   viewValue: string;
 }
-interface profilepic {
-  value: string;
-  viewValue: string;
-}
 @Component({
   selector: 'app-first-page',
-  templateUrl: './first-page.component.html',
-  styleUrls: ['./first-page.component.scss']
+  templateUrl: './employeedetails.component.html',
+  styleUrls: ['./employeedetails.component.scss']
 })
 
 export class FirstPAgeComponent implements OnInit {
 
-  constructor(private user: UserService) { }
+  constructor(private user: UserService,private _snackBar: MatSnackBar) { }
 
   ngOnInit(): void { }
 
@@ -139,7 +136,11 @@ date(){
     console.log(result);
     })
   }
-
-
+  reloadPage(){
+    window.location.reload()
+  }
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action);
+  }
 }
 

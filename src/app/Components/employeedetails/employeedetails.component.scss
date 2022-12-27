@@ -12,6 +12,10 @@
     display: flex;
     flex-direction: column;
 }
+.image{
+    height: 10px;
+    width: 10px;
+}
 
 .h1 {
     font-size: larger;
@@ -87,6 +91,7 @@
     height: 100%;
     width: 70%;
     border: 1px solid gainsboro;
+    margin-top: 5px;
 }
 .line1{
     height: 10%;
@@ -148,23 +153,23 @@ justify-content: flex-start;
 justify-content: flex-start;
 }
 .field6{
-    height: 100px;
+    height: 10px;
     width: 700px;
     font-size: 11px;
+    border:none;
+    background: none;
 }
 .g1{
     width:90%;
     height:100%;
     border: 0px solid gainsboro;
-    position: relative;
-    top: 10px;
 }
-
 .field2 {
     height: 20px;
-    width: 300px;
+    width: 700px;
     border: 0px solid gainsboro;
     border-radius: 5px;
+    font-size: 17px;
 
 }
 .feild4 {
@@ -283,6 +288,7 @@ justify-content: flex-start;
 .field3{
     height: 60px;
     width: 700px;
+    font-size: 18px;
 }
 .notes1{
     height:20%;
@@ -312,4 +318,8 @@ justify-content: flex-start;
     position: relative;
     left: 10px;
     top: 20px;
+}
+.changebackground{
+    background-color:white;
+    border-radius: 10px;
 }

@@ -1,11 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FirstPAgeComponent } from './Components/first-page/first-page.component';
-import { SecondPageComponent } from './Components/second-page/second-page.component';
+import { AuthenticationGuard } from './Components/authentication.guard';
+import { FirstPAgeComponent } from './Components/employeedetails/employeedetails.component';
+import { LoginComponent } from './Components/login/login.component';
+import { SecondPageComponent } from './Components/listOfEmployees/listOfemployees.component';
+import { SignupComponent } from './Components/signup/signup.component';
 
 const routes: Routes = [
-  {path:'firstpage',component:FirstPAgeComponent},
-  {path:'secondpage',component:SecondPageComponent}
+  {path:'',redirectTo:'/login',pathMatch:'full'},
+  {path:'employeedetails',component:FirstPAgeComponent,canActivate:[AuthenticationGuard]},
+  {path:'listofemployees',component:SecondPageComponent},
+  {path:'login',component:LoginComponent},
+  {path:'signup',component:SignupComponent},
 ];
 
 @NgModule({

@@ -1,11 +1,17 @@
 .main{
     display: flex;
     flex-direction: row;
+   justify-content: space-around;
+   border: 2px solid green;
 }
 .namefield{
     height: 30px;
     width: 100px;
-    border: 1px solid red;
+    border: 0px solid red;
+}
+.note1{
+    height: 20px;
+    width: 100px;
 }
 .button{
     height: 30px;
@@ -14,4 +20,45 @@
     color: white;
     border: 0px;
     border-radius: 5px;
+    margin-top: 15px;
+   margin-left: 50px;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    border: 0px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.left1{
+    height:25px;
+    width:100px;
+    font-weight: 500;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.left2{
+    height:25px;
+    width:100px;
+    font-weight: 500;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.left3{
+    height: 32px;
+    width: 100px;
+    font-weight: 500;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.image{
+    height: 25px;
+    width: 25px;
 }

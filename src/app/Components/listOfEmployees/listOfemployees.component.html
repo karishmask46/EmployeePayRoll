@@ -1,4 +1,4 @@
-<div class="maindiv" fxLayout="column" fxLayoutAlign="center center">
+
     <mat-toolbar>
         <div class="menu" fxLayout="column" fxLayoutAlign="center center">
             <div class="l1">
@@ -22,8 +22,7 @@
             </div>
         </div>
     </mat-toolbar>
-</div>
-<div class="middlecontainer" fxLayout="row" fxLayoutAlign="center center">
+<div class="middlecontainer" fxLayout="row" fxLayoutAlign="center start">
     <div class="innerdiv" fxLayout="column" fxLayoutAlign="start center">
         <div class="line1" fxLayout="row" fxLayoutAlign="space-between center">
             <div class="thread1" fxLayout="row" fxLayoutAlign="start center">
@@ -48,7 +47,7 @@
                 </div>
 
             </div>
-            <button class="adduser" routerLink="/firstpage">+Add User</button>
+            <button class="adduser" routerLink="/employeedetails">+Add User</button>
         </div>
         <div class="line2">
             <div class="name1">
@@ -62,7 +61,7 @@
             </div>
         </div>
         <div class="userdetails">
-            <app-icon [childmessage]="array" (deletedetails)="receivemessage($event)"></app-icon>
+            <app-icon [childmessage]="array" (deletedetails)="receivemessage($event)" (updateemployee)="reciveupdate($event)"></app-icon>
         </div>
     </div>
 </div>

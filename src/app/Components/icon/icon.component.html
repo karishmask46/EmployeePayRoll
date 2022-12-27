@@ -9,6 +9,6 @@
      <div class="salary">{{friend.salary}}</div>
      <div class="startDate">{{friend.Datename}}</div>
      <div class="notes"><img class="delete" (click)="openDialog(friend)" src="../../../assets/edit_FILL0_wght400_GRAD0_opsz48 (1).svg"  alt="">
-      <img class="delete"(click)="deleteempl(friend.id)"  src="../../../assets/delete_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+      <img class="delete"(click)="deleteempl(friend.id)"  (click)="openSnackBar('employee details deleted successfully','Dismiss')" src="../../../assets/delete_FILL0_wght400_GRAD0_opsz48.svg" alt="">
     </div>
 </div>

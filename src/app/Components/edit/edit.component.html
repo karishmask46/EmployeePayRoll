@@ -1,7 +1,37 @@
 <div class="main">
-    <input class="namefield" placeholder="Name" style="font-size: small;"  class="note1" type="text" [(ngModel)]="Name">
-    <input type="text"  placeholder="Department"  [(ngModel)]="Dept" >
-    <input type="text" placeholder="Salary" [(ngModel)]="salary" >
-    <input type="text" placeholder="Notes"  [(ngModel)]="Notes" >
-    <button class="button" (click)=" onClick()">update</button>
+    <div class="left">
+        <span class="left1">Name :  </span>
+        <span class="left3">Profile :  </span>
+        <span class="left1">Gender :  </span>
+        <span class="left1">Department : </span>
+        <span class="left1">Salary :  </span>
+        <span class="left2">Start Date :  </span>
+        <span class="left2">Notes :  </span>
+    </div>
+    <div>
+        <div >
+            <input class="namefield" placeholder="Name" style="font-size: small;" class="note1" type="text"
+                [(ngModel)]="Name">
+        </div>
+        <div>
+            <img class="image" src="{{profile}}" alt="">
+        </div>
+        <div>
+            <input type="text" placeholder="Department" class="note1"  [(ngModel)]="gender">
+        </div>
+        <div>
+            <input type="text" placeholder="Department" class="note1"  [(ngModel)]="Dept">
+        </div>
+        <div>
+            <input type="text" placeholder="Salary" class="note1"  [(ngModel)]="salary">
+        </div>
+        <div>
+            <input type="text" placeholder="Salary" class="note1"  [(ngModel)]="date">   
+        </div>
+        <div>
+            <input type="text" placeholder="Notes" class="note1"  [(ngModel)]="Notes">
+        </div>
+
+        <button class="button" (click)=" onClick(empid)" (click)="openSnackBar('employee details updated successfully','Dismiss')">update</button>
+    </div>
 </div>
