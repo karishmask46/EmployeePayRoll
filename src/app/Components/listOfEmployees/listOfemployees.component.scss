@@ -1,18 +1,29 @@
 .maindiv {
-    height: 10vh;
+    height: 13vh;
     width: 100vw;
     display: flex;
-    border: 0px solid gainsboro;
+    border: 1px solid gainsboro;
 }
 
 .menu {
     height: auto;
-    width: 60%;
+    width: 20%;
     border: 0px solid blue;
     display: flex;
     flex-direction: column;
+   
 }
-
+mat-toolbar{
+    height: 100%;
+    width: 100%;
+    // background: blue;
+}
+.image{
+    height: 40px;
+    width: 40px;
+    border: 1px solid gainsboro;
+    margin-top: 15px;
+}
 .h1 {
     font-size: larger;
     font-weight: 500;
@@ -88,7 +99,7 @@
 .line2{
     height: 30px;
     width: 100%;
-    background: green;
+    background:#42515F;
     display: flex;
 }
 .name1{
@@ -106,17 +117,17 @@
     height: 30px;
     width: 10%;
     display: flex;
-    background: green;
+    background: #82A70C;
     align-items: center;
     justify-content: center;
     border: 0px;
     border-radius: 5px;
 }
 .profile{
-    height: 98%;
+    height: 96%;
     width: 15%;
     display: flex;
-    border: 1px solid green;
+    border: 1px solid  #42515F;
     border-radius: 2px;
    align-items: center;
 }
@@ -126,3 +137,422 @@
     border: 0px solid red;
     display: flex;      
 }
+@media only screen and (min-width :320px) and (max-width :480px) {
+   
+    .maindiv{
+        height:100px;
+        width: 1000px;
+    }
+    
+    .menu{
+    // background: red;
+    }
+    mat-toolbar{
+        height: 100%;
+        // background: blue;
+    }
+    .image{
+        height: 60px;
+        width: 60px;
+        margin-right: 32px;
+    }
+    .fz{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // background: blue;
+    }
+    .l1{
+        // background: red;
+        position: relative;
+        top: 10px;
+        right: 30px;
+    }
+    .l2{
+        position: relative;
+        // top: 10px;
+        right: 30px;  
+    }
+    .h1{
+        font-size: xx-large;
+    }
+    
+    .h2 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    .thread1{
+        height: 60px;
+        width:50%;
+        border: 0px solid red;
+        
+    }
+    .form1{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    .form2{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    
+    .t1{
+        font-size: larger;
+        font-weight: 600;
+    }
+    
+    .h3 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    
+    .h4 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    
+
+    .middlecontainer{
+        height: auto;
+        width: 1000px;
+        border:0px solid black ;
+    }
+    .innerdiv{
+        height: auto;
+        width: 80%;
+        border: 1px solid gainsboro;
+    }
+    .line1{
+        height: 10%;
+        width: 100%;
+        border: 0px solid red;
+        
+    }
+    .line2{
+        height: 30px;
+        width: 100%;
+        background:#42515F;
+        display: flex;
+    }
+    .name1{
+        color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        border: 0px solid white;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .adduser{
+        color: white;
+        height: 30px;
+        width: 10%;
+        display: flex;
+        background: #82A70C;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .profile{
+        height: 96%;
+        width: 15%;
+        display: flex;
+        border: 1px solid  #42515F;
+        border-radius: 2px;
+       align-items: center;
+    }
+    .userdetails{
+        height: 95%;
+        width: auto;
+        border: 0px solid red;
+        display: flex;      
+    }
+}
+@media only screen and (min-width :481px) and (max-width :768px) {
+    .maindiv{
+        height:100px;
+        width: 1000px;
+    }
+    
+    .menu{
+    // background: red;
+    }
+    mat-toolbar{
+        height: 100%;
+        // background: blue;
+    }
+    .image{
+        height: 60px;
+        width: 60px;
+        margin-right: 32px;
+    }
+    .fz{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // background: blue;
+    }
+    .l1{
+        // background: red;
+        position: relative;
+        top: 10px;
+        right: 30px;
+    }
+    .l2{
+        position: relative;
+        // top: 10px;
+        right: 30px;  
+    }
+    .h1{
+        font-size: xx-large;
+    }
+    
+    .h2 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    .thread1{
+        height: 60px;
+        width:50%;
+        border: 0px solid red;
+        
+    }
+    .form1{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    .form2{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    
+    .t1{
+        font-size: larger;
+        font-weight: 600;
+    }
+    
+    .h3 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    
+    .h4 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    
+
+    .middlecontainer{
+        height: auto;
+        width: 1000px;
+        border:0px solid black ;
+    }
+    .innerdiv{
+        height: auto;
+        width: 80%;
+        border: 1px solid gainsboro;
+    }
+    .line1{
+        height: 10%;
+        width: 100%;
+        border: 0px solid red;
+        
+    }
+    .line2{
+        height: 30px;
+        width: 100%;
+        background:#42515F;
+        display: flex;
+    }
+    .name1{
+        color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        border: 0px solid white;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .adduser{
+        color: white;
+        height: 30px;
+        width: 10%;
+        display: flex;
+        background: #82A70C;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .profile{
+        height: 96%;
+        width: 15%;
+        display: flex;
+        border: 1px solid  #42515F;
+        border-radius: 2px;
+       align-items: center;
+    }
+    .userdetails{
+        height: 95%;
+        width: auto;
+        border: 0px solid red;
+        display: flex;      
+    }
+}
+@media only screen and (min-width :769px) and (max-width :1024px) {
+    .maindiv{
+        height:100px;
+        width: 1000px;
+    }
+    
+    .menu{
+    // background: red;
+    }
+    mat-toolbar{
+        height: 100%;
+        // background: blue;
+    }
+    .image{
+        height: 60px;
+        width: 60px;
+        margin-right: 32px;
+    }
+    .fz{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // background: blue;
+    }
+    .l1{
+        // background: red;
+        position: relative;
+        top: 10px;
+        right: 30px;
+    }
+    .l2{
+        position: relative;
+        // top: 10px;
+        right: 30px;  
+    }
+    .h1{
+        font-size: xx-large;
+    }
+    
+    .h2 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    .thread1{
+        height: 60px;
+        width:50%;
+        border: 0px solid red;
+        
+    }
+    .form1{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    .form2{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    
+    .t1{
+        font-size: larger;
+        font-weight: 600;
+    }
+    
+    .h3 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    
+    .h4 {
+        font-size: larger;
+        font-weight: 500;
+    }
+    
+
+    .middlecontainer{
+        height: auto;
+        width: 1000px;
+        border:0px solid black ;
+    }
+    .innerdiv{
+        height: auto;
+        width: 80%;
+        border: 1px solid gainsboro;
+    }
+    .line1{
+        height: 10%;
+        width: 100%;
+        border: 0px solid red;
+        
+    }
+    .line2{
+        height: 30px;
+        width: 100%;
+        background:#42515F;
+        display: flex;
+    }
+    .name1{
+        color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        border: 0px solid white;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .adduser{
+        color: white;
+        height: 30px;
+        width: 10%;
+        display: flex;
+        background: #82A70C;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .profile{
+        height: 96%;
+        width: 15%;
+        display: flex;
+        border: 1px solid  #42515F;
+        border-radius: 2px;
+       align-items: center;
+    }
+    .userdetails{
+        height: 95%;
+        width: auto;
+        border: 0px solid red;
+        display: flex;      
+    }
+}
+

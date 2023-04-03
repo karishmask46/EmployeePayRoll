@@ -1,11 +1,11 @@
-<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-    <div class="maincontainer" fxLayout="row" fxLayoutAlign="center center" ngClass.xs="maincontainer-xs">
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="re">
+    <div class="maincontainer" fxLayout="row" fxLayoutAlign="center center" ngClass.xs="maincontainer-xs"  ngClass.gt-xs="maincontainer-gt-xs">
 
-        <div fxLayout="row" fxLayoutAlign="center center" class="subcontainer" ngClass.xs="subcontainer-xs">
+        <div fxLayout="row" fxLayoutAlign="center center" class="subcontainer" ngClass.xs="subcontainer-xs"  ngClass.gt-xs="subcontainer-gt-xs" >
 
             <div class="content" ngClass.xs="content-xs">
 
-                <div class="content1" fxLayout="row" fxLayoutAlign="start end" ngClass.xs="content1-xs">
+                <div class="content1" fxLayout="row" fxLayoutAlign="start end" ngClass.xs="content1-xs"  ngClass.gt-xs="content1-gt-xs" >
                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">E</span>
                 <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">m</span>
                 <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">p</span>
@@ -22,51 +22,51 @@
                 <span style="color:rgb(4, 4, 40) ;" class="h1">l</span>
                 <span style="color:rgb(4, 4, 40) ;" class="h1">l</span> </div>
                 <div class="content2" fxLayout="row" fxLayoutAlign="start center"><span>Registration Form</span></div>
-                <div class="subcon" ngClass.xs="subcon-xs" fxLayout="row" fxLayout.xs="column"
-                    fxLayoutAlign="space-evenly start" fxLayoutAlign.xs="space-around start">
-                    <mat-form-field class="field1" ngClass.xs="field1-xs" appearance="outline">
+                <div class="subcon" ngClass.xs="subcon-xs" ngClass.gt-xs="subcon-gt-xs" fxLayout="row" fxLayout.xs="column" fxLayout.gt-xs="row" 
+                    fxLayoutAlign="space-evenly start" fxLayoutAlign.xs="space-around start" fxLayoutAlign.gt-xs="space-around start">
+                    <mat-form-field class="field1" ngClass.xs="field1-xs" ngClass.gt-xs="field1-gt-xs" appearance="outline">
                         <mat-label>First name</mat-label>
                         <input matInput placeholder="firstName" formControlName="firstName">
                         <mat-error> enter valid first name</mat-error>
                     </mat-form-field>
-                    <mat-form-field class="field1" style="font-size:11px ;" appearance="outline" ngClass.xs="field1-xs">
+                    <mat-form-field class="field1" style="font-size:11px ;" appearance="outline" ngClass.xs="field1-xs" ngClass.gt-xs="field1-gt-xs">
                         <mat-label>Last name</mat-label>
                         <input matInput placeholder="lastName" formControlName="lastName">
                         <mat-error> enter valid last name</mat-error>
                     </mat-form-field>
                 </div>
-                <div class="content3" fxLayout="column" fxLayoutAlign="center stretch">
-                    <mat-form-field style="font-size:11px ;" ngClass.xs="username-xs" appearance="outline">
-                        <mat-label>Username</mat-label>
-                        <input matInput placeholder="Username" formControlName="email">
+                <div class="content3" ngClass.gt-xs="content3-gt-xs" fxLayout="column" fxLayoutAlign="center stretch">
+                    <mat-form-field style="font-size:11px ;" ngClass.xs="username-xs" ngClass.gt-xs="username-gt-xs" appearance="outline">
+                        <mat-label>Email</mat-label>
+                        <input matInput placeholder="Email" formControlName="email">
                         <mat-error> enter valid user name</mat-error>
                     </mat-form-field>
                     <span class="content4">you can use letters,numbers & periods</span>
                 </div>
-                <div class="content5">use my current email address instead</div>
-                <div class="content6" ngClass.xs="content6-xs" fxLayout="row" fxLayout.xs="column"
-                    fxLayoutAlign="space-evenly center" fxLayoutAlign.xs="space-between start">
-                    <mat-form-field class="fieldw" style="font-size:11px ;" ngClass.xs="field3-xs" appearance="outline">
+                <!-- <div class="content5">use my current email address instead</div> -->
+                <div class="content6" ngClass.xs="content6-xs" ngClass.gt-xs="content6-gt-xs" fxLayout="row" fxLayout.xs="column" fxLayout.gt-xs="row"
+                    fxLayoutAlign="center center" fxLayoutAlign.xs="space-between start" fxLayoutAlign.gt-xs="space-between start">
+                    <mat-form-field class="fieldw" style="font-size:11px ;" ngClass.xs="field3-xs" ngClass.gt-xs="field3-gt-xs" appearance="outline">
                         <mat-label>Password</mat-label>
                         <input matInput placeholder="password" formControlName="Password">
                         <mat-error> enter valid password</mat-error>
                     </mat-form-field>
-                    <mat-form-field class="fieldw" style="font-size:11px ;" ngClass.xs="field3-xs" appearance="outline">
+                    <!-- <mat-form-field class="fieldw" style="font-size:11px ;" ngClass.xs="field3-xs" ngClass.gt-xs="field3-gt-xs" appearance="outline">
                         <mat-label>Confirm</mat-label>
                         <input matInput placeholder="ConfirmPassword" formControlName="ConfirmPassword">
                         <mat-error> enter valid password</mat-error>
-                    </mat-form-field>
+                    </mat-form-field> -->
 
                 </div>
-                <div class="content7" ngClass.xs="content7-xs">
+                <div class="content7" ngClass.xs="content7-xs" ngClass.gt-xs="content7-gt-xs">
                     use 8 or more characters with a mix of letters,numbers & symbols</div>
 
-                <div class="box" ngClass.xs="box-xs">
+                <div class="box" ngClass.xs="box-xs"  ngClass.gt-xs="box-gt-xs">
                     <mat-checkbox class="example-margin">Show password</mat-checkbox>
                 </div>
                 <div class="box2" fxLayout="row" fxLayoutAlign="space-between center">
-                    <button class="box3" ngClass.xs="box3-xs" mat-button routerLink="/login">Sign in instead</button>
-                    <button class="box4" ngClass.xs="box4-xs" mat-raised-button color="primary" (click)="openSnackBar('Employee registered successfully','Dismiss')" > Register</button>
+                    <button class="box3" ngClass.xs="box3-xs" ngClass.gt-xs="box3-gt-xs" mat-button routerLink="/login">Login</button>
+                    <button class="box4" ngClass.xs="box4-xs" ngClass.gt-xs="box4-gt-xs" mat-raised-button color="primary" (click)="openSnackBar('Employee registered successfully','Dismiss')" > Register</button>
                 </div>
 
             </div>

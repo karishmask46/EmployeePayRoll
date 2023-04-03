@@ -1,4 +1,7 @@
+import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { FirstPAgeComponent } from './employeedetails.component';
 
@@ -8,7 +11,7 @@ describe('FirstPAgeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FirstPAgeComponent ]
+      declarations: [ FirstPAgeComponent ],imports:[HttpClientModule,MatDialogModule,MatSnackBarModule]
     })
     .compileComponents();
   });

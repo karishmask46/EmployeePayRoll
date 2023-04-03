@@ -74,4 +74,329 @@
 .delete{
     height: 20px;
     width: 20px;
+    color: #658292;
 }
+@media only screen and (min-width :320px) and (max-width :480px) {
+    .main{
+        height: 70px;
+        width: 800px;
+        border: 0px solid black;
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+        flex-direction: row;
+    }
+    .profile{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+       
+    }
+    .pic{
+        height: 35px;
+        width: 35px;
+        position: relative;
+        left: 10px;
+        border: 0px solid red;
+    }
+    .name{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .gender{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    .depa{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .salary{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .startDate{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .notes{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .delete{
+        height: 20px;
+        width: 20px;
+        color: #658292;
+    }
+}
+@media only screen and (min-width :481px) and (max-width :768px) {
+    .main{
+        height: 70px;
+        width: 800px;
+        border: 0px solid black;
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+        flex-direction: row;
+    }
+    .profile{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+       
+    }
+    .pic{
+        height: 35px;
+        width: 35px;
+        position: relative;
+        left: 10px;
+        border: 0px solid red;
+    }
+    .name{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .gender{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    .depa{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .salary{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .startDate{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .notes{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .delete{
+        height: 20px;
+        width: 20px;
+        color: #658292;
+    }
+}
+@media only screen and (min-width :768px) and (max-width :1024px) {
+    .main{
+        height: 70px;
+        width: 800px;
+        border: 0px solid black;
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+        flex-direction: row;
+    }
+    .profile{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+       
+    }
+    .pic{
+        height: 35px;
+        width: 35px;
+        position: relative;
+        left: 10px;
+        border: 0px solid red;
+    }
+    .name{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .gender{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    .depa{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .salary{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .startDate{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .notes{
+        height: 80%;
+        width: 13.8%;
+        border: 1px solid gainsboro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .delete{
+        height: 20px;
+        width: 20px;
+        color: #658292;
+    }
+}
+// @media only screen and (min-width :1025px) and (max-width :1284px) {
+//     .main{
+//         height: 70px;
+//         width: 74%;
+//         border: 0px solid black;
+//         display: flex;
+//         align-items: center;
+//        justify-content: space-between;
+//         flex-direction: row;
+//     }
+//     .profile{
+//         height: 80%;
+//         width: 160px;
+//         border: 1px solid gainsboro;
+//         display: flex;
+//         justify-content:flex-start;
+//         align-items: center;
+       
+//     }
+//     .pic{
+//         height: 35px;
+//         width: 35px;
+//         position: relative;
+//         left: 10px;
+//         border: 0px solid red;
+//     }
+//     .name{
+//         height: 80%;
+//         width: 160px;
+//         border: 1px solid gainsboro;
+//         display: flex;
+//         justify-content:flex-start;
+//         align-items: center;
+//     }
+//     .gender{
+//         height: 80%;
+//         width: 160px;
+//         border: 1px solid gainsboro;
+//         display: flex;
+//         justify-content: flex-start;
+//         align-items: center;
+        
+//     }
+//     .depa{
+//         height: 80%;
+//         width: 160px;
+//         border: 1px solid gainsboro;
+//         display: flex;
+//         justify-content: flex-start;
+//         align-items: center;
+//     }
+//     .salary{
+//         height: 80%;
+//         width: 160px;
+//         border: 1px solid gainsboro;
+//         display: flex;
+//         justify-content: flex-start;
+//         align-items: center;
+//     }
+//     .startDate{
+//         height: 80%;
+//         width: 160px;
+//         border: 1px solid gainsboro;
+//         display: flex;
+//         justify-content: flex-start;
+//         align-items: center;
+//     }
+//     .notes{
+//         height: 80%;
+//         width: 160px;
+//         border: 1px solid gainsboro;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
+//     .delete{
+//         height: 20px;
+//         width: 20px;
+//         color: #658292;
+//     }
+// }
